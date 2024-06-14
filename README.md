@@ -19,13 +19,13 @@ EmailSpamDetector/
 
 - `data/ham/`: Directory containing ham (non-spam) emails as `.txt` files.
 - `data/spam/`: Directory containing spam emails as `.txt` files.
-- `SpamDetection.py`: The main script that reads the emails, preprocesses the data, trains the model, and evaluates it.
+- `SpamDetection.py`: The main script reads the emails, preprocesses the data, trains the model, and evaluates it.
 
 ## Requirements
 
-- Python 3.x
+- Python
 - Pandas
-- scikit-learn
+- sci-kit-learn
 
 ## Explanation
 
@@ -52,11 +52,9 @@ EmailSpamDetector/
 
 ### Detailed Code Comments
 
-The code includes detailed comments to explain each step and the functionality of various components. This makes it easier to understand and modify the code as needed.
+The code includes detailed comments explaining each step and various components' functionality. This makes it easier to understand and modify the code as needed.
 
 ### Sample Output
-
-'''
 Accuracy:
 0.95
 
@@ -85,4 +83,4 @@ Top 10 negative features (indicating ham):
 -1.1234 meeting
 -1.0567 project
 -0.9876 agenda
-'''
+
