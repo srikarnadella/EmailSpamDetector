@@ -56,6 +56,7 @@ The code includes detailed comments to explain each step and the functionality o
 
 ### Sample Output
 
+'''
 Accuracy:
 0.95
 
@@ -77,10 +78,10 @@ Top 10 positive features (indicating spam):
 1.5872 http
 1.2345 free
 1.1234 offer
-...
+
 
 Top 10 negative features (indicating ham):
 -1.1234 meeting
 -1.0567 project
 -0.9876 agenda
-...
+'''
