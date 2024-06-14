@@ -56,7 +56,7 @@ The code includes detailed comments to explain each step and the functionality o
 
 ### Sample Output
 
-'''
+'
 Accuracy:
 0.95
 
@@ -64,15 +64,16 @@ Confusion Matrix:
 [[25  2]
  [ 1 22]]
 
-Detailed Statistics:
-              precision    recall  f1-score   support
 
+
+    Detailed Statistics:
+             Precision    Recal    F1-Score    Support
          ham       0.96      0.93      0.95        27
         spam       0.92      0.96      0.94        23
 
-    accuracy                           0.95        50
-   macro avg       0.94      0.95      0.95        50
-weighted avg       0.95      0.95      0.95        50
+    accuracy                           0.95        50 
+    macro avg      0.94      0.95      0.94        50
+    weighted avg   0.95      0.95      0.95        50
 
 Top 10 positive features (indicating spam):
 1.5872 http
@@ -84,4 +85,4 @@ Top 10 negative features (indicating ham):
 -1.1234 meeting
 -1.0567 project
 -0.9876 agenda
-'''
+'
