@@ -4,18 +4,7 @@
 
 This project is an Email Spam Detector using a Logistic Regression model. It processes email text data, categorizes it into spam and ham (non-spam), and trains a machine learning model to classify new emails. The model uses a `CountVectorizer` to convert text data into numerical features and a Logistic Regression model to make predictions.
 
-## Directory Structure
-
-EmailSpamDetector/
-│
-├──data/
-│ ├──ham/
-│ │ └──[ham_email_1.txt, ham_email_2.txt, ...]
-│ └──spam/
-│ └──[spam_email_1.txt, spam_email_2.txt, ...]
-│
-└──SpamDetection.py
-
+## Directory Information
 
 - `data/ham/`: Directory containing ham (non-spam) emails as `.txt` files.
 - `data/spam/`: Directory containing spam emails as `.txt` files.
